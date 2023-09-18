@@ -28,4 +28,11 @@
 
    
 ## 피그마 사용법
-### 피그마를 사용하는 방법은 매우 간단합니다. 공식 사이트(https://www.figma.com/)에서 계정을 만들고 로그인 해주세요.
+피그마를 사용하는 방법은 매우 간단합니다. 공식 사이트(https://www.figma.com/)에서 계정을 만들고 로그인 해주세요.
+   
+![코드스테이츠_UXUI부트캠프_피그마사용법_01로그인](https://github.com/rhkdtjq0915/cordova/assets/80075223/1ec59bde-ca17-4a6f-9285-9f67070f2625)
+
+로그인 후, 새로운 파일을 만들거나 기존 파일을 열 수 있습니다.
+   
+![코드스테이츠_UXUI부트캠프_피그마사용법_02새로운파일-1](https://github.com/rhkdtjq0915/cordova/assets/80075223/47da7938-1baf-4e5f-a9b5-ed675ec22da0)
+
