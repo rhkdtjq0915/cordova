@@ -1,0 +1,449 @@
+.frame2-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.frame2-frame2 {
+  width: 470px;
+  height: 757px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+.frame2-rap1 {
+  top: 0px;
+  left: 0px;
+  width: 470px;
+  height: 757px;
+  position: absolute;
+  border-radius: 20px;
+}
+.frame2-text {
+  top: 24px;
+  left: 32px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 48px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) ;
+  font-style: SemiBold;
+  text-align: center;
+  font-family: Khula;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame2-text02 {
+  top: 123px;
+  left: 119px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: SemiBold;
+  text-align: center;
+  font-family: Khula;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame2-text04 {
+  top: 155px;
+  left: 120px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: SemiBold;
+  text-align: center;
+  font-family: Khula;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame2-text06 {
+  top: 139px;
+  left: 376px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Khula;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame2-ellipse2 {
+  top: 516px;
+  left: 32px;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+}
+.frame2-text08 {
+  top: 516px;
+  left: 93px;
+  color: rgba(255, 255, 255, 1);
+  width: 130px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: SemiBold;
+  text-align: center;
+  font-family: Khula;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame2-text10 {
+  top: 541px;
+  left: 82px;
+  color: rgba(255, 255, 255, 1);
+  width: 94px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: SemiBold;
+  text-align: center;
+  font-family: Khula;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame2-ellipse3 {
+  top: 588px;
+  left: 32px;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+}
+.frame2-text12 {
+  top: 588px;
+  left: 93px;
+  color: rgba(255, 255, 255, 1);
+  width: 130px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: SemiBold;
+  text-align: center;
+  font-family: Khula;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame2-text14 {
+  top: 615px;
+  left: 114px;
+  color: rgba(255, 255, 255, 1);
+  width: 183px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Khula;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame2-imageprocessing2020051114396z3zfnz1 {
+  top: 618px;
+  left: 271px;
+  width: 22px;
+  height: 21px;
+  position: absolute;
+}
+.frame2-imageprocessing2020051114396z3zfnz2 {
+  top: 617px;
+  left: 109px;
+  width: 22px;
+  height: 21px;
+  position: absolute;
+}
+.frame2-ellipse4 {
+  top: 440px;
+  left: 32px;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+}
+.frame2-text16 {
+  top: 441px;
+  left: 93px;
+  color: rgba(255, 255, 255, 1);
+  width: 130px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) ;
+  font-style: SemiBold;
+  text-align: center;
+  font-family: Khula;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame2-text18 {
+  top: 467px;
+  left: 100px;
+  color: rgba(255, 255, 255, 1);
+  width: 94px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) ;
+  font-style: Bold;
+  text-align: center;
+  font-family: Khula;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame2-rectangle2 {
+  top: 133px;
+  left: 356px;
+  width: 96px;
+  height: 41px;
+  position: absolute;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) ;
+}
+.frame2-rectangle3 {
+  top: 674px;
+  left: 32px;
+  width: 324px;
+  height: 53px;
+  position: absolute;
+  border-color: rgba(255, 255, 255, 1);
+  border-style: solid;
+  border-width: 1px;
+}
+.frame2-rectangle4 {
+  top: 674px;
+  left: 387px;
+  width: 55px;
+  height: 53px;
+  position: absolute;
+  border-color: rgba(255, 255, 255, 1);
+  border-style: solid;
+  border-width: 1px;
+}
+.frame2-text20 {
+  top: 689px;
+  left: 50px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: SemiBold;
+  text-align: center;
+  font-family: Khula;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame2-foldedhands1f64f1 {
+  top: 541px;
+  left: 158px;
+  width: 22px;
+  height: 22px;
+  position: absolute;
+}
+.frame2-foldedhands1f64f2 {
+  top: 541px;
+  left: 184px;
+  width: 22px;
+  height: 22px;
+  position: absolute;
+}
+.frame2-foldedhands1f64f3 {
+  top: 541px;
+  left: 210px;
+  width: 22px;
+  height: 22px;
+  position: absolute;
+}
+.frame2-favorite {
+  top: 679px;
+  left: 393px;
+  width: 44px;
+  height: 44px;
+  position: absolute;
+}
+.frame2-ellipse1 {
+  top: 123px;
+  left: 32px;
+  width: 71px;
+  height: 71px;
+  position: absolute;
+}
+.frame2-rectangle11 {
+  top: 0px;
+  left: 0px;
+  width: 470px;
+  height: 757px;
+  position: absolute;
+  border-radius: 20px;
+}
+.frame2-rectangle6 {
+  top: 163px;
+  left: 0px;
+  width: 470px;
+  height: 594px;
+  position: absolute;
+  border-radius: 50px 50px 20px 20px;
+}
+.frame2-next282 {
+  top: 460px;
+  left: 389px;
+  width: 50px;
+  height: 39px;
+  position: absolute;
+}
+.frame2-next281 {
+  top: 207px;
+  left: 389px;
+  width: 50px;
+  height: 39px;
+  position: absolute;
+}
+.frame2-ellipse8 {
+  top: 52px;
+  left: 198px;
+  width: 73px;
+  height: 73px;
+  position: absolute;
+}
+.frame2-close {
+  top: 66px;
+  left: 213px;
+  width: 44px;
+  height: 44px;
+  position: absolute;
+}
+.frame2-text22 {
+  top: 207px;
+  left: 30px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 36px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) ;
+  font-style: SemiBold;
+  text-align: center;
+  font-family: Radio Canada;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame2-text24 {
+  top: 450px;
+  left: 30px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 36px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) ;
+  font-style: SemiBold;
+  text-align: center;
+  font-family: Radio Canada;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame2-rectangle7 {
+  top: 289px;
+  left: 30px;
+  width: 115px;
+  height: 113px;
+  position: absolute;
+  border-radius: 15px;
+}
+.frame2-rectangle8 {
+  top: 289px;
+  left: 177px;
+  width: 115px;
+  height: 113px;
+  position: absolute;
+  border-radius: 15px;
+}
+.frame2-rectangle9 {
+  top: 289px;
+  left: 324px;
+  width: 115px;
+  height: 113px;
+  position: absolute;
+  border-radius: 15px;
+}
+.frame2-rectangle10 {
+  top: 523px;
+  left: 30px;
+  width: 306px;
+  height: 172px;
+  position: absolute;
+  border-radius: 15px;
+}
+.frame2-play {
+  top: 316px;
+  left: 57px;
+  width: 61px;
+  height: 61px;
+  position: absolute;
+}
+.frame2-play1 {
+  top: 316px;
+  left: 204px;
+  width: 61px;
+  height: 61px;
+  position: absolute;
+}
+.frame2-play2 {
+  top: 316px;
+  left: 351px;
+  width: 61px;
+  height: 61px;
+  position: absolute;
+}
+.frame2-vector {
+  top: 576px;
+  left: 159px;
+  width: 66px;
+  height: 66px;
+  position: absolute;
+}
+.frame2-text26 {
+  top: 661px;
+  left: 282px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: SemiBold;
+  text-align: center;
+  font-family: Radio Canada;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
