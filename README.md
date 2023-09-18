@@ -36,3 +36,5 @@
    
 ![코드스테이츠_UXUI부트캠프_피그마사용법_02새로운파일-1](https://github.com/rhkdtjq0915/cordova/assets/80075223/47da7938-1baf-4e5f-a9b5-ed675ec22da0)
 
+Figma에서 새로운 프로젝트 파일을 만들려면 ‘New design file’ 버튼을 클릭하면 됩니다.
+
