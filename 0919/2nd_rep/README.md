@@ -25,6 +25,8 @@ p {
 }
 ```
 
+![ezgif-2-1dd8d219a0](https://github.com/rhkdtjq0915/cordova/assets/80075223/2649e68b-3781-4eb5-bc65-0b104b693eae)
+
 
 넷트리파이 <https://rhkdtjq.netlify.app/>
 깃허브 <https://rhkdtjq0915.github.io/HTMLHardCoding/>
