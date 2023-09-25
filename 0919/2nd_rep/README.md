@@ -65,5 +65,8 @@ p {
 
 마우스를 올리면 크기 변환
 
+### 화면 구현
+
+![메인](https://github.com/rhkdtjq0915/cordova/assets/80075223/5145a7b5-d8df-4e79-8023-067b4b4a9744)
 
 링크 <https://rhkdtjq0915.github.io//cordova>
