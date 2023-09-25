@@ -47,5 +47,4 @@ p {
 마우스를 올리면 크기 변환
 
 
-넷트리파이 <https://rhkdtjq.netlify.app/>
-깃허브 <https://rhkdtjq0915.github.io/HTMLHardCoding/>
+링크 <https://rhkdtjq0915.github.io//cordova>
