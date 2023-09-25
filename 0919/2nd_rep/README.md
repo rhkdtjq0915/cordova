@@ -1,5 +1,22 @@
 ## 9월 19일 리포트
 
+># CSS 3가지 박스 유형 비교
+|인라인 박스(display:block)|인라인 박스(display:inline)|인라인 블록 박스(display:inline-block)|
+|---|---|---|
+|항상 새라인에서 시작|새라인에서 시작 못함 라인안(inline)에 있음|새라인에서 시작 못함 라인안(inline)에 있음|
+|블록박스 내에만 배치|모든 박스 내 배치|모든 박스 내 배치|
+|옆에 다른 요소 배치 불가능|옆에 다른 요소 배치 가능|옆에 다른 요소 배치 가능|
+|width와 geight으로 크기 조절|width와 height으로 크기 조절 불가능|width와 geight으로 크기 조절|
+|padding, border, margin조절 기능|margin-top, margin-bottom조절 불가능|padding, border, margin조절 불가능|
+
+># POSITION
+|속성|속성값|설명|
+|---|---|---|
+|정적배치|static|요소를 문서의 흐름에 맞추어 배치. 위치지정이 필요없음|
+|상대배치|relative|이전요소에 저연스럽게 연결해 배치하되 위치를 지정할 수 있음|
+|절대배치|absolute|원하는 위치를 지정해 배치|
+|고정배치|fixed|지정한 위치에 고정해 배치. 화면에서 요소가 잘릴 수도 있다|
+
 ### CSS3 스타일로 태그에 동적 변화 만들기
 자바스크립트로 구현하던 것을 CSS3로 작성 가능
    
