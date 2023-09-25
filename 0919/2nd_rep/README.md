@@ -8,6 +8,20 @@
 * 전환
 * 변환
 
+### 10초를 주기로 <p> 태그의 글자색을 파란색, 초록색, 빨간색으로 바꾸는 애니메이션 무한 반복
+```
+@keyframes textColorAnimation {
+	0% { color : blue; }
+	30% { color : green; } 
+	100% { color : red; }
+}
+p {
+	animation-name : textColorAnimation; 
+	animation-duration : 10s;
+	animation-iteration-count : infinite; 
+}
+```
+
 
 넷트리파이 <https://rhkdtjq.netlify.app/>
 깃허브 <https://rhkdtjq0915.github.io/HTMLHardCoding/>
