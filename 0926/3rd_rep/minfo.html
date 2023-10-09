@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<title>개인 포트폴리오 홈페이지</title>
+	<link rel="stylesheet" href="mportpolio.css"/>
+
+	<style>
+
+		@keyframes textColorAnimation {
+			0% { color : rgb(255, 255, 0); }
+			30% { color : green; } 
+			100% { color : red; }
+		}
+		
+		h2 {
+			animation-name : textColorAnimation; 
+			animation-duration : 5s;
+			animation-iteration-count : infinite; 
+		}
+	
+	
+		@keyframes bomb {
+			from { font-size : 200%;}
+			to { font-size: 300%;}
+		}
+	
+		h1 {
+			animation-name: bomb;
+			animation-duration :3s;
+			animation-iteration-count: infinite;
+		} 
+	
+	</style>
+</head>
+<body>
+	<header>
+		<h1>김광섭 홈페이지</h1>
+	</header>
+	<nav>
+		<span><a href="mcareer.html"> 경력 </a></span>
+		<span><a href="mstudy.html"> 학술 </a></span>
+		<span><a href="minfo.html"> 인적 </a></span>
+		<span><a href="mintro.html"> 소개 </a></span>
+	</nav>
+  <div class="content">
+	<section class="section1">  
+		<h3>인적사항</h3>
+		<ul>
+			<li>성    명 : 김광섭</li>
+			<li>생년월일 : 1998. 09. 15</li>
+			<li>주    소 : 울산시</li>
+			<li>연 락 처 : 010-1234-5678</li>
+			<li>학    력
+			<table id="year-table" border="1">
+				<thead>
+					<tr>	<th>졸업년도</th> <th>출신학교</th></tr>
+				</thead>
+				<tbody>
+					<tr>	<td>2017. 2.</td><td> 달천고등학교 졸업</td></tr>
+				</tbody>
+			</table>
+			</li>
+		</ul>
+	</section>
+	<img id="logo" src="logo.jpg"/>	
+	<aside>
+		<h3>참조링크</h3>
+		<a href="http://www.naver.com">
+			<img class="portal" src="naver.jpg" alt="네이버이동"/>
+		</a>
+		<a href="http://www.google.com">
+			<img class="portal" src="google.jpg" alt="구글이동"/>
+		</a>
+		<a href="http://www.daum.net">
+			<img class="portal" src="daum.jpg" alt="다음이동"/>
+		</a>
+	</aside>
+  </div>
+	<footer>
+		<h2>Copyright &copy; 2023 Kim, GwangSeop </h2>
+	</footer>
+</body>
+</html>
