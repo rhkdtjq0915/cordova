@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+
+<div data-role="page" id="main-page">
+    <div data-role="header">
+        <h2>메인 페이지</h2>
+    </div>
+    
+    <div data-role="content">
+        <button class="loadContentButton" data-file="mintro.html">소개</button>
+        <button class="loadContentButton" data-file="minfo.html">인적</button>
+        <button class="loadContentButton" data-file="mstudy.html">학술</button>
+        <button class="loadContentButton" data-file="mcareer.html">경력</button>
+        <div id="contentContainer"></div>
+    </div>
+</div>
+
+<script>
+$(document).on("pagecreate", function() {
+    $(".loadContentButton").click(function() {
+        var fileToLoad = $(this).data("file");
+        // 선택한 버튼에 연결된 HTML 파일 로드
+        $("#contentContainer").load(fileToLoad);
+        // 페이지 이동 없이 내용을 로드하므로 data-rel="dialog"를 사용하지 않음
+    });
+});
+</script>
+
+</body>
+</html>
