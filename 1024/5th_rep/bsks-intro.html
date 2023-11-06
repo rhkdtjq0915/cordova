@@ -1,0 +1,142 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<title>jQuery Mobile</title>
+	<link rel="stylesheet" href="jquery.mobile-1.4.5.min.css"/>
+	<script src="jquery-1.11.1.min.js"></script>
+	<script src="jquery.mobile-1.4.5.min.js"></script>
+<style>
+   li { list-style:none; }
+  .picture { list-style:none; padding:0; margin:0; }
+  .picture li { float:left; width:50%;}
+  .picture li a {display:block; margin:5px; border: 1px }
+  .picture li img { display:block; width:50%;  height:auto;}
+  .picture li img:hover { display:block; width:100%;  height:auto;} 
+</style>
+</head>
+
+<body>
+<div data-theme="b">
+	<div data-role="page" id="home">
+		<div data-role="header" data-theme="b">
+			<h1>부산경상대학교 컴퓨터정보융합과
+			</h1>
+		</div>
+		<div data-role="content" style="text-align:center">
+				<img src="bgdokdo1.png" >
+			<ul data-role="listview" data-inset="true">
+				<li><a href="#intro">학과소개</a></li>
+				<li><a href="#movie" data-rel="dialog">학과 소개 영상</a></li>
+				<li><a href="#wizard3-1">주요교과목</a></li>
+				<li><a href="#gallery">학과 사진</a></li>
+			</ul>
+		</div>
+		<div data-role="footer" data-position="fixed" data-theme="b">
+			<h1>학과사랑_김광섭</h1>
+		</div>
+	</div>
+	
+	<div data-role="page" id="intro" data-theme="b">
+		<div data-role="header" data-theme="b">
+			<a href="#home" data-icon="arrow-l" data-direction="reverse">처음</a>			
+			<h1>학과소개</h1>
+		</div>
+		<div data-role="content">
+				<div  style="text-align:center">
+					<img src="bgdokdo2.png">
+				</div>			
+			<div data-role="collapsible-set" data-theme="b" data-content-theme="e">
+				<div data-role="collapsible" data-collapsed="false">
+					<h3>IT전문 학교기업</h3>
+					<p>부산 지역 최초, 유일의 IT전문 학교기업 '앱버튼'을 통한 체계적인 현장실습으로 실무능력향상 및 현장실습비 지원</p>
+				</div>
+				<div data-role="collapsible">
+					<h3>수업방식</h3>
+					<p>전공직무, 사회관계, 진로적성을 바탕으로 창의융합, 소통협업, 실용직무, 인성소양, 자기계발의 5대 역량을 갖춘 현장전문직업인력을 육성하고자 합니다.<br>
+						이를 위하여 본 학과는 체계적인 현장실습을 위하여 수많은 기업들과 가족회사를 체결하여 상생하고 있으며, 교내입주기업인 게임/VR 전문기업 '(주)유캔스타'를 바탕으로 실무형 교육 및 취업연계를 진행하고 있습니다.<br>
+						또한 부산인재평생교육진흥원의 '사회상생협력지원사업' 선정으로 창의융합 교육시스템을 구축하였습니다.</p>
+				</div>
+				<div data-role="collapsible">
+					<h3>졸업 후 진로</h3>
+					<p>IT솔루션 개발자, 홈페이지 개발자, 어플리케이션 개발자, 데이터 분석가 등의 자격증을 취득 가능하고, 게임·메타버스콘텐츠 전공에서 게임개발프로그래머, 게임캐릭터/배경 모델러, 게임원화가, 게임애니메이터, 게임이펙터, 가상현실/증강현실 개발자, 컴퓨터 방과 후 지도사, 코딩전문강사 등 취업, 게임회사 창업, 메타버스 크리에이터, 아바타 디자이너</p>
+				</div>
+			</div>
+		</div>
+		<div data-role="footer" data-position="fixed" data-theme="b">
+			<h1>학과사랑_홍길동</h1>
+		</div>		
+	</div>
+	
+	<div data-role="page" id="movie" data-theme="b">
+		<div data-role="header" data-position="fixed" data-theme="b">
+			<h1>학과 소개 영상</h1>
+		</div>
+		<div data-role="content" >
+			<div class="ui-bar ui-bar-a">컴퓨터 정보 융합과 소개 동영상</div><br/>
+			<li><iframe width="100%" height="240" src="https://www.youtube.com/watch?v=w7ZYpt7N5Yg"></iframe></li><br/>
+			<div class="ui-bar ui-bar-a">컴퓨터 정보 융합과 소개 영상</div><br/>
+			<li><video controls width="100%" preload="metadata">
+				<source src="mop2.mp4" type="video/mp4">
+			</video></li>
+		</div>
+		<div data-role="footer" data-theme="b">
+		</div>
+	</div>
+	
+	<div data-role="page" id="wizard3-1" data-theme="b">
+		<div data-role="header" data-theme="b">
+			<a href="#home" data-icon="arrow-l" data-direction="reverse"></a>			
+			<h1>교육과정</h1>
+		</div>
+		<div data-role="content">
+				<div  style="text-align:center">
+					<img src="bgdokdo2.png">
+				</div>			
+			<div data-role="collapsible-set" data-theme="b" data-content-theme="e">
+				<div data-role="collapsible" data-collapsed="false">
+					<h3>소프트웨어 전공</h3>
+					<p>컴퓨터개론, UI디자인, 그래픽기초실습, 프로그래밍언어활용, 화면구현, 웹사이트제작, 웹프로그래밍기초, 데이터베이스입문, 자료구조및알고리즘, 파이썬프로그래밍, 객체지향프로그래밍, 웹프로그래밍실무, 사물인터넷, 정보통신, 유닉스운영체제, 윈도우닷넷프로그래밍, 어플리케이션설계, 데이터베이스모델링, 소프트웨어프로젝트, 정보처리시스템구현, 데이터분석, IT창업실무, 네트워크프로그래밍 등</p>
+				</div>
+				<div data-role="collapsible">
+					<h3>게임·메타버스콘텐츠전공</h3>
+					<p>2D그래픽디자인, 게임기획입문, 게임스토리텔링, 디자인드로잉, 아이디어발상과표현, 프로그래밍언어활용기초, 3D캐릭터및배경기초, 게임스토리보드, 게임알고리즘, 게임엔진응용프로그래밍기초, 가상현실콘텐츠제작, 시스템분석및설계, 2D/3D캐릭터디자인, 게임시스템기획, 게임제작프로젝트실습, 게임프로그래밍실습, 게임캐릭터디자인활용, 캡스톤디자인, 게임미디어응용, 메타버스개론, 메타버스콘텐츠제작 등</p>
+				</div>
+			</div>
+		</div>
+		<div data-role="footer" data-position="fixed" data-theme="b">
+			<h1>학과사랑_홍길동</h1>
+		</div>		
+	</div>
+
+	<div data-role="page" id="wizard3-2">
+		<div data-role="header">
+			<h1></h1>
+		</div>
+		<div data-role="footer">
+			<a href="#wizard3-1"  data-direction="reverse">이전</a>
+			<a href="#home">처음</a>
+		</div>
+	</div>
+
+	<div data-role="page" id="gallery"  data-theme="b">
+		<div data-role="header" data-position="fixed"  data-theme="b">
+			<a href="#home" data-icon="arrow-l" data-direction="reverse">처음</a>
+			<h1>학과 갤러리</h1>
+		</div>
+		<div data-role="content">
+            <ul class="picture">
+				<li><a href="4-1.jpg" rel="external"><img src="5-1.jpg" /></a></li>	
+				<li><a href="4-2.jpg" rel="external"><img src="5-2.jpg" /></a></li>	
+				<li><a href="4-3.jpg" rel="external"><img src="5-3.jpg" /></a></li>	
+				<li><a href="4-4.jpg" rel="external"><img src="5-4.jpg" /></a></li>	
+            </ul>
+		</div>
+		<div data-role="footer" data-position="fixed" data-theme="b">
+			<h1>학과사랑_홍길동</h1>
+		</div>		
+	</div>
+</div>	
+</body>
+</html>
