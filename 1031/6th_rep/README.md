@@ -1,6 +1,7 @@
 # 2023년 10월 31일 리포트
 ## JQUERY와 javascript를 활용하여 이미지 갤러리 만들기
 ### jquery를 이용한 이미지 갤러리
+
 ''' 
 
 	<link rel="stylesheet" href="jquery.mobile-1.4.5.min.css"/>
