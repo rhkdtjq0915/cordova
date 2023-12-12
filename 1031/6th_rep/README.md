@@ -2,7 +2,7 @@
 ## JQUERY와 javascript를 활용하여 이미지 갤러리 만들기
 ### jquery를 이용한 이미지 갤러리
 
-''' 
+```
 
 	<link rel="stylesheet" href="jquery.mobile-1.4.5.min.css"/>
 	<script src="jquery-1.11.1.min.js"></script>
@@ -44,14 +44,14 @@
 	}
 
 
-'''
+```
    
 ![4](https://github.com/rhkdtjq0915/cordova/assets/80075223/c921b29b-9161-498c-b352-ed7045fd0a6f)   
 이미지를 클릭하면 클릭한 이미지가 크게 보인다.   
 
 ### javascript를 이용한 이미지 갤러리  
    
-'''
+```
  <script type="text/javascript">
 	$(document).ready(function(){
 	   $(".picture2 a").click(function(){
@@ -62,7 +62,7 @@
 	});
    </script>
 
-'''
+```
    
 ![3](https://github.com/rhkdtjq0915/cordova/assets/80075223/5a1c5246-d904-4ff3-9edf-c508063249a9)   
 이미지에 마우스를 올리면 이미지가 커지고 클릭한 이미지가 팝업되어 보여진다.
