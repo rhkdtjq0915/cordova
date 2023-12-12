@@ -47,12 +47,11 @@
 '''
    
 ![4](https://github.com/rhkdtjq0915/cordova/assets/80075223/c921b29b-9161-498c-b352-ed7045fd0a6f)   
-이미지를 클릭하면 클릭한 이미지가 크게 보인다.
+이미지를 클릭하면 클릭한 이미지가 크게 보인다.   
+
+### javascript를 이용한 이미지 갤러리  
    
 '''
-
-### javascript를 이용한 이미지 갤러리   
-
  <script type="text/javascript">
 	$(document).ready(function(){
 	   $(".picture2 a").click(function(){
